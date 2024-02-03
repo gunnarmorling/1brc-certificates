@@ -13,6 +13,8 @@ ruby certificates_get_times.rb > results.txt
 
 * Load _certificate_template.pages_ into Pages and run the "mail merge" against the spreadsheet.
 
+* Export out of Pages into a PDF file certificates.pdf
+
 * Split up the PDF into one file per certificate:
 
 ```

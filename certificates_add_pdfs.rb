@@ -1,6 +1,6 @@
 require 'fileutils'
 
-leaderboard = `tail -n+60 ../1brc/README.md | head -n 163`.split("\n")
+leaderboard = `tail -n+56 ../1brc/README.md | head -n 163`.split("\n")
 i = 1;
 leaderboard.each do |entry|
     begin
